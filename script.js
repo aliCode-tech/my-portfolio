@@ -1,9 +1,9 @@
 // Typewriter Effect
 const phrases = [
   "Data Analyst",
-  "ERP & MIS Specialist",
-  "Advanced Excel & VBA Developer",
-  "Business Intelligence Architect"
+  "Garment Merchandising Operations",
+  "ERP / SAP Specialist",
+  "Variance & Cost Analyst"
 ];
 
 let currentPhraseIdx = 0;
@@ -124,7 +124,7 @@ if (contactForm) {
     }
 
     // Compose mailto as fallback direct message
-    const mailtoUri = `mailto:alinurislam4@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("From: " + name + " (" + email + ")\n\n" + message)}`;
+    const mailtoUri = `mailto:alinurislam403@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("From: " + name + " (" + email + ")\n\n" + message)}`;
     window.location.href = mailtoUri;
 
     feedbackEl.style.display = "block";
