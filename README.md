@@ -3,7 +3,7 @@
 Modern, responsive professional portfolio website showcasing expertise in Data Analytics, ERP Systems (LOGIC ERP), MIS Reporting Architecture, and Advanced Excel VBA/Macro Engineering.
 
 ## 🚀 Live Demo
-Published via GitHub Pages: [https://<username>.github.io/my-portfolio](https://<username>.github.io/my-portfolio)
+Published via GitHub Pages: [https://aliCode-tech.github.io/my-portfolio](https://aliCode-tech.github.io/my-portfolio)
 
 ## 📌 Key Specializations
 - **Data Analytics & BI**: Advanced Excel, Power BI, Dashboards, Data Visualization
