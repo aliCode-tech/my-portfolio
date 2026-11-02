@@ -609,7 +609,7 @@ body.light-mode .header {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  gap: 22px;
 }
 
 .project-card {
@@ -621,6 +621,114 @@ body.light-mode .header {
   transition: var(--transition);
   display: flex;
   flex-direction: column;
+}
+
+/* Impact Cards with Minimal Smooth Animations */
+.impact-card {
+  padding: 24px 26px;
+  gap: 14px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  position: relative;
+  overflow: hidden;
+  animation: impactFadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: calc(var(--i, 1) * 0.05s);
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), 
+              border-color 0.3s ease, 
+              box-shadow 0.3s ease;
+}
+
+@keyframes impactFadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.impact-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25), 0 0 15px rgba(var(--primary-rgb), 0.15);
+}
+
+body.light-mode .impact-card:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08), 0 0 15px rgba(var(--primary-rgb), 0.12);
+}
+
+.impact-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.impact-icon-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: rgba(var(--primary-rgb), 0.1);
+  border: 1px solid rgba(var(--primary-rgb), 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  color: var(--primary);
+  transition: var(--transition);
+}
+
+.impact-card:hover .impact-icon-box {
+  background: var(--primary);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.impact-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.impact-num {
+  font-family: 'Fira Code', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-muted);
+  opacity: 0.6;
+}
+
+.impact-badge {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  border-radius: 14px;
+  background: rgba(var(--primary-rgb), 0.1);
+  color: var(--primary-light);
+  border: 1px solid rgba(var(--primary-rgb), 0.2);
+}
+
+.impact-card-body h3 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  color: var(--text);
+  transition: color 0.2s ease;
+}
+
+.impact-card:hover .impact-card-body h3 {
+  color: var(--primary-light);
+}
+
+.impact-card-body p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
 }
 
 .project-card:hover {
