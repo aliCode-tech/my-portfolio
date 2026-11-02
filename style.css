@@ -992,6 +992,30 @@ body.light-mode .header {
   font-size: 11px;
 }
 
+.competency-badge.highlight-badge {
+  background: rgba(var(--primary-rgb), 0.22) !important;
+  border-color: var(--primary) !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  box-shadow: 0 2px 8px rgba(var(--primary-rgb), 0.25);
+}
+
+body.light-mode .competency-badge.highlight-badge {
+  color: var(--primary-dark) !important;
+}
+
+.pill.highlight-pill {
+  background: rgba(var(--primary-rgb), 0.22) !important;
+  border-color: var(--primary) !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  box-shadow: 0 2px 8px rgba(var(--primary-rgb), 0.25);
+}
+
+body.light-mode .pill.highlight-pill {
+  color: var(--primary-dark) !important;
+}
+
 /* Timeline Custom Styles */
 .timeline-header-flex {
   display: flex;
