@@ -1,13 +1,13 @@
 # Md. Alinur Islam - Professional Portfolio
 
-Professional portfolio website of **Md. Alinur Islam** — Data Analyst with 2.3 Years of Experience in garment merchandising operations, ERP/SAP systems, SQL, Power BI, Data Cleaning, Validation, and PO management.
+Professional portfolio website of **Md. Alinur Islam** — Data Analyst with 2.3 Years of Experience in garment merchandising operations, SAP SD Module, Power BI, Data Cleaning, Validation, and PO management.
 
 ## 🚀 Live Demo
 Published on GitHub Pages: [https://alicode-tech.github.io/my-portfolio/](https://alicode-tech.github.io/my-portfolio/)
 
 ## 📌 Technical Competencies & Core Skills
-- **Core Analytics & Validation**: SQL, Power BI, Data Cleaning, Data Validation, Variance Analysis, Master Data Management
-- **Systems & Enterprise Tools**: SAP Systems, LOGIC ERP, Customer Portals, Microsoft Excel (Advanced, VBA)
+- **Core Analytics & Validation**: Power BI, Data Cleaning, Data Validation, Variance Analysis, Master Data Management
+- **Systems & Enterprise Tools**: SAP SD Module, LOGIC ERP, Customer Portals, Microsoft Excel (Advanced, VBA)
 - **Operations & Lifecycle**: End-to-End PO Raising & Management, Data Reconciliation, Margin & Cost Analysis, Cross-Functional Coordination
 
 ## 💼 Employment History

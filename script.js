@@ -1,8 +1,8 @@
 // Typewriter Effect
 const phrases = [
   "Data Analyst",
+  "SAP SD Module",
   "Garment Merchandising Operations",
-  "ERP / SAP Specialist",
   "Variance & Cost Analyst"
 ];
 
